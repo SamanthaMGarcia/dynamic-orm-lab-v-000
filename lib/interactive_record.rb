@@ -18,6 +18,8 @@ class InteractiveRecord
     end
 
     def self.column_names_for_insert
+      self.class.column_names
+    end
 
     def self.column_names
 
@@ -31,3 +33,4 @@ class InteractiveRecord
       column_names.compact
   end
 end
+
