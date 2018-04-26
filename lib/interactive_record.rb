@@ -22,7 +22,9 @@ class InteractiveRecord
     end
 
     def values_for_insert
-      
+      sql = <<-SQL
+      SQL
+
     end
 
     def self.column_names
