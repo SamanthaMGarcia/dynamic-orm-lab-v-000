@@ -23,7 +23,8 @@ class InteractiveRecord
 
     def values_for_insert
       sql = <<-SQL
-      INSERT INTO 
+      INSERT INTO table_name 
+      WHERE VALUES = ? ?
       SQL
 
     end
