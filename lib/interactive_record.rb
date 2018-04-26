@@ -17,6 +17,8 @@ class InteractiveRecord
       self.class.table_name
     end
 
+    def self.column_names_for_insert
+
     def self.column_names
 
       sql = "pragma table_info('#{table_name}')"
